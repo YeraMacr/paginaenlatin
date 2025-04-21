@@ -1,0 +1,91 @@
+body {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #000066;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#titulo {
+  color: #00ffff; /* Verde aqua */
+  text-align: center;
+}
+
+#subtitulo {
+  color: #0000ff; /* Azul */
+  font-size: 1.2em;
+}
+
+a {
+  color: #ff0000; /* Rojo */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.destacado {
+  color: #ffff00; /* Amarillo */
+}
+
+.especial {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #000066;
+  padding: 8px;
+  text-align: center;
+  background-color: transparent; /* Sin color de fondo en las celdas */
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #0000ff; /* Azul para el título de la tabla */
+}
+
+thead th, tfoot th {
+  color: #ffff00; /* Amarillo para las letras de los títulos de la tabla */
+}
+
+#especial {
+  color: #0000cc; /* Azul para texto especial */
+  font-style: italic;
+}
+
+#adicional {
+  background-color: #ffffcc; /* Fondo amarillo claro */
+  border: 2px dashed #999900;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Colores de las letras dentro de la tabla */
+th {
+  color: #ff0000; /* Rojo para las letras en los títulos de las filas */
+}
+
+th.especial {
+  color: #ffff00; /* Amarillo para las letras de los títulos de las columnas */
+}
+
+td {
+  color: #00cc00; /* Verde para las letras de las celdas */
+}
+
+td em {
+  color: #00cc00; /* Verde para el texto em */
+}
+
+tfoot th {
+  color: #ff0000; /* Rojo para las letras en la última fila de títulos */
+}
